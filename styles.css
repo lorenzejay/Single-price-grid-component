@@ -15,9 +15,11 @@
 
 @media screen and (max-width: 548px){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: scroll;
         margin: 0;
         padding: 0 ;
+        width: 100%;
     }
     .container{
         grid-template-columns: repeat(1, 2fr);
